@@ -1,59 +1,59 @@
-DWM App
-    A cross-platform mobile application built using Flutter. This app is designed as part of a Data Warehousing and Mining (DWM) project, with an intuitive UI and support for Android, iOS, web, and desktop platforms.
+# DWM App
 
-- 🚀 Features
-    Cross-platform Flutter application
+A cross-platform mobile application built using **Flutter**. This app is designed as part of a Data Warehousing and Mining (DWM) project, with an intuitive UI and support for Android, iOS, web, and desktop platforms.
 
-    Organized architecture with pages and widgets
+## 🚀 Features
 
-    Responsive UI
+- Cross-platform Flutter application
+- Organized architecture with `pages` and `widgets`
+- Responsive UI
+- Platform support: Android, iOS, Web, Windows, macOS, Linux
 
-    Platform support: Android, iOS, Web, Windows, macOS, Linux
+## 🛠️ Tech Stack
 
-- 🛠️ Tech Stack
-    Flutter (Dart)
+- **Flutter** (Dart)
+- Platform-specific integration via `android`, `ios`, `web`, and `desktop` folders
 
-    Platform-specific integration via android, ios, web, and desktop folders
+## 📦 Getting Started
 
-- 📦 Getting Started
-    Prerequisites
-    Flutter SDK: Install Flutter
+### Prerequisites
 
-    Dart SDK
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK
+- IDE like Android Studio or VS Code
 
-    IDE like Android Studio or VS Code
+### Installation
 
-    Installation
-    bash
-    Copier
-    Modifier
-    git clone <your-repo-url>
-    cd dwm_app
-    flutter pub get
-    flutter run
-- 📁 Project Structure
-    bash
-    Copier
-    Modifier
-    lib/
-        ├── main.dart         # Entry point of the app
-        ├── pages/            # App pages/screens
-        └── widgets/          # Reusable UI components
-- 🧪 Testing
-    bash
-    Copier
-    Modifier
-    flutter test
-- 🤝 Contributing
-    Fork the repo
+```bash
+git clone <your-repo-url>
+cd dwm_app
+flutter pub get
+flutter run
+```
 
-    Create your feature branch (git checkout -b feature/AmazingFeature)
+## 📁 Project Structure
 
-    Commit your changes (git commit -m 'Add amazing feature')
+```
+lib/
+├── main.dart         # Entry point of the app
+├── pages/            # App pages/screens
+└── widgets/          # Reusable UI components
+```
 
-    Push to the branch (git push origin feature/AmazingFeature)
+## 🧪 Testing
 
-    Open a Pull Request
+```bash
+flutter test
+```
 
-- 📄 License
-        BIDOUD MEHDI.
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Add your license information here.
